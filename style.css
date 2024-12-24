@@ -1,0 +1,26 @@
+
+*{
+    margin: 0;
+    padding:0;
+    font-family: poppins;
+    box-sizing: border-box;
+}
+boby{
+    background: #1e1f21;
+    color: #ffff;
+}
+
+.wrapper{
+    padding: 10px 10%;
+}
+
+#card-area{
+    padding: 50px 0;
+}
+
+.box-area{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
